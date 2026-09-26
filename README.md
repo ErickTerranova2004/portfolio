@@ -49,15 +49,15 @@ A continuación se muestran algunas vistas del proyecto. Las imágenes se cargan
 
 ### Vista principal
 
-![Vista principal del portfolio](https://i.ibb.co/vCnNMLyn/Chat-GPT-Image-25-sept-2026-18-11-49.png)
+![Vista principal del portfolio](https://i.ibb.co/mV2jpxk6/imagen-1.png)
 
 ### Sección de habilidades
 
-![Sección de habilidades](https://i.ibb.co/BKFxXQpP/images-3.png)
+![Sección de habilidades](https://i.ibb.co/jPhRnZKZ/imagen-2.png)
 
 ### Sección de proyectos
 
-![Sección de proyectos](https://i.ibb.co/n8gTVc5v/11103355.png)
+![Sección de proyectos](https://i.ibb.co/Sw40QV8d/imagen-3.png)
 
 ## Estructura del proyecto
 
