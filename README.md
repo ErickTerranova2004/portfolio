@@ -4,7 +4,7 @@ Portafolio personal desarrollado con HTML, CSS y JavaScript para presentar infor
 
 ## Descripción
 
-Este proyecto consiste en una landing page personal orientada a un perfil de estudiante de Ingeniería en Software con interés en análisis de datos, desarrollo web y soluciones tecnológicas. El sitio incluye:
+Este proyecto consiste en una landing page personal, El sitio incluye:
 
 - presentación personal
 - sección de habilidades
@@ -45,19 +45,19 @@ http://localhost:8000/portfolio/
 
 ## Capturas del resultado
 
-A continuación se muestran algunas vistas del proyecto. Puedes reemplazar estos textos por capturas reales cuando quieras documentarlo más visualmente.
+A continuación se muestran algunas vistas del proyecto. Las imágenes se cargan desde URLs públicas para que se visualicen correctamente en GitHub.
 
 ### Vista principal
 
-- Captura de la página principal del portfolio.
+![Vista principal del portfolio](https://i.ibb.co/vCnNMLyn/Chat-GPT-Image-25-sept-2026-18-11-49.png)
 
 ### Sección de habilidades
 
-- Captura de la sección de habilidades y stack tecnológico.
+![Sección de habilidades](https://i.ibb.co/BKFxXQpP/images-3.png)
 
 ### Sección de proyectos
 
-- Captura de la galería de proyectos y detalle visual.
+![Sección de proyectos](https://i.ibb.co/n8gTVc5v/11103355.png)
 
 ## Estructura del proyecto
 
