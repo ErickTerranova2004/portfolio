@@ -45,19 +45,19 @@ http://localhost:8000/portfolio/
 
 ## Capturas del resultado
 
-A continuación se muestran algunas vistas del proyecto. Las imágenes se cargan desde URLs públicas para que se visualicen correctamente en GitHub.
+A continuación se muestran algunas vistas del proyecto.
 
-### Vista principal
+### 1. Vista principal
 
-<img src="https://i.ibb.co/mV2jpxk6/imagen-1.png" alt="Vista principal del portfolio" width="1000" />
+![Vista principal del portfolio](./image.png)
 
-### Sección de habilidades
+### 2. Sección de habilidades
 
-<img src="https://i.ibb.co/jPhRnZKZ/imagen-2.png" alt="Sección de habilidades" width="1000" />
+![Sección de habilidades](./image-1.png)
 
-### Sección de proyectos
+### 3. Sección de proyectos
 
-<img src="https://i.ibb.co/Sw40QV8d/imagen-3.png" alt="Sección de proyectos" width="1000" />
+![Sección de proyectos](./image-2.png)
 
 ## Estructura del proyecto
 
