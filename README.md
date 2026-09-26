@@ -49,15 +49,15 @@ A continuación se muestran algunas vistas del proyecto.
 
 ### 1. Vista principal
 
-![Vista principal del portfolio](./image.png)
+![Vista principal del portfolio](https://ibb.co/Pzc5jKV2)
 
 ### 2. Sección de habilidades
 
-![Sección de habilidades](./image-1.png)
+![Sección de habilidades](https://ibb.co/7tsk6vBN)
 
 ### 3. Sección de proyectos
 
-![Sección de proyectos](./image-2.png)
+![Sección de proyectos](https://ibb.co/TqHMRkwn)
 
 ## Estructura del proyecto
 
