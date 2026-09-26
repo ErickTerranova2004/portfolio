@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Design System del portafolio de Erick Terranova." />
+    <title>Design System | Erick Terranova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html#home" aria-label="Ir a inicio">Erick</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="../index.html#home">Inicio</a></li>
+            <li><a href="../index.html#about">Sobre mí</a></li>
+            <li><a href="../index.html#skills">Habilidades</a></li>
+            <li><a href="../index.html#projects">Proyectos</a></li>
+            <li><a href="#design-system">Design System</a></li>
+            <li><a href="../index.html#contact">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Cambiar tema"
+        >
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span class="theme-label">Dark Mode</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="design-system" class="design-system-page">
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Design System</span>
+            <h1>Design System</h1>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Colores</h2>
+            <div class="color-grid">
+              <div class="color-swatch">
+                <span class="swatch swatch-primary"></span>
+                <div>
+                  <strong>Primary</strong>
+                  <small>#9AA7FF</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-secondary"></span>
+                <div>
+                  <strong>Secondary</strong>
+                  <small>#7ECBFF</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-background"></span>
+                <div>
+                  <strong>Background</strong>
+                  <small>#111827</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-surface"></span>
+                <div>
+                  <strong>Surface</strong>
+                  <small>#1A2236</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-text"></span>
+                <div>
+                  <strong>Text</strong>
+                  <small>#F3F7FF</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-muted"></span>
+                <div>
+                  <strong>Text Muted</strong>
+                  <small>#C0CCE0</small>
+                </div>
+              </div>
+              <div class="color-swatch">
+                <span class="swatch swatch-border"></span>
+                <div>
+                  <strong>Border</strong>
+                  <small>rgba(191, 203, 224, 0.14)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Tipografía</h2>
+            <div class="typography-showcase">
+              <h1>H1 - Hola, soy Erick Terranova</h1>
+              <h2>H2 - Proyectos destacados</h2>
+              <h3>H3 - Desarrollo Web</h3>
+              <p>Párrafo: Estudiante de Ingeniería en Software con interés en análisis de datos y soluciones tecnológicas.</p>
+              <p class="text-muted">Texto secundario: Aprendiendo y construyendo soluciones con datos.</p>
+              <a href="#" class="text-link">Enlace</a>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Espaciado</h2>
+            <div class="spacing-showcase">
+              <span class="space-sample xs">XS</span>
+              <span class="space-sample sm">SM</span>
+              <span class="space-sample md">MD</span>
+              <span class="space-sample lg">LG</span>
+              <span class="space-sample xl">XL</span>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Botones</h2>
+            <div class="button-showcase">
+              <button class="btn btn-primary" type="button">Primary</button>
+              <button class="btn btn-secondary" type="button">Secondary</button>
+              <button class="btn btn-outline" type="button">Outline</button>
+              <button class="btn btn-primary" type="button" disabled>Disabled</button>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Stack / Herramientas</h2>
+            <div class="skills-grid" style="margin-top: 1rem;">
+              <article class="skill-card">
+                <h3>Desarrollo Web</h3>
+                <ul class="skill-list skill-list-logos">
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"></li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <h3>Backend</h3>
+                <ul class="skill-list skill-list-logos">
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" title="Django"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" title="React JS"></li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <h3>Bases de Datos</h3>
+                <ul class="skill-list skill-list-logos">
+                  <li><img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" title="SQL"></li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <h3>Herramientas</h3>
+                <ul class="skill-list skill-list-logos">
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" title="GitHub"></li>
+                </ul>
+              </article>
+
+              <article class="skill-card">
+                <h3>Datos e Inteligencia Artificial</h3>
+                <ul class="skill-list skill-list-logos">
+                  <li><img class="skill-logo" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Crect width='500' height='500' fill='%23000000'/%3E%3Cg fill='none' stroke='%230c6ec9' stroke-width='18' stroke-linecap='round'%3E%3Cellipse cx='250' cy='250' rx='185' ry='105' transform='rotate(-20 250 250)'/%3E%3Cellipse cx='250' cy='250' rx='185' ry='105' transform='rotate(20 250 250)'/%3E%3C/g%3E%3Cg fill='none' stroke='%230c6ec9' stroke-width='18' stroke-linecap='round'%3E%3Cellipse cx='250' cy='250' rx='185' ry='105' transform='rotate(90 250 250)'/%3E%3C/g%3E%3Cg%3E%3Crect x='190' y='215' width='120' height='90' rx='16' fill='%230b9ce1'/%3E%3Crect x='204' y='185' width='92' height='26' rx='8' fill='%230b9ce1'/%3E%3Crect x='209' y='225' width='82' height='11' rx='5' fill='%2379e0ff'/%3E%3Crect x='209' y='244' width='82' height='11' rx='5' fill='%2379e0ff'/%3E%3Crect x='209' y='263' width='82' height='11' rx='5' fill='%2379e0ff'/%3E%3C/g%3E%3Cg fill='%23f1c24d' stroke='%230c6ec9' stroke-width='6'%3E%3Ccircle cx='110' cy='150' r='22'/%3E%3Ccircle cx='390' cy='150' r='22'/%3E%3Ccircle cx='250' cy='70' r='22'/%3E%3C/g%3E%3C/svg%3E" alt="Data Science" title="Data Science"></li>
+                  <li><img class="skill-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Inteligencia Artificial" title="Inteligencia Artificial"></li>
+                  <li><img class="skill-logo skill-logo-powerbi" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f5c542'/%3E%3Crect x='14' y='32' width='10' height='18' fill='%23f4f4f4'/%3E%3Crect x='28' y='22' width='10' height='28' fill='%23f4f4f4'/%3E%3Crect x='42' y='12' width='10' height='38' fill='%23f4f4f4'/%3E%3C/svg%3E" alt="Power BI" title="Power BI"></li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Project Card</h2>
+            <article class="project-card">
+              <div class="project-visual project-visual-one" aria-hidden="true"></div>
+              <div class="project-info">
+                <div class="project-topline">
+                  <h3>EasyRent</h3>
+                  <span class="project-status">Proyecto académico</span>
+                </div>
+                <p>Plataforma web para la gestión y presentación de propiedades disponibles para alquiler.</p>
+                <div class="project-tags">
+                  <span>Python</span>
+                  <span>Django</span>
+                  <span>SQL</span>
+                </div>
+                <div class="project-actions">
+                  <button class="btn btn-outline" type="button">Ver detalles</button>
+                  <button class="btn btn-secondary" type="button" disabled>Repositorio pendiente</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Formularios</h2>
+            <form class="contact-form design-form">
+              <div class="field-group">
+                <label for="design-name">Input</label>
+                <input id="design-name" type="text" placeholder="Nombre" />
+              </div>
+              <div class="field-group">
+                <label for="design-message">Textarea</label>
+                <textarea id="design-message" rows="4" placeholder="Mensaje"></textarea>
+              </div>
+              <button class="btn btn-primary" type="button">Button</button>
+            </form>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Navbar</h2>
+            <div class="design-navbar-sample">
+              <div class="site-header design-header-sample">
+                <div class="container header-inner">
+                  <a class="brand" href="#">Erick</a>
+                  <nav class="main-nav" aria-label="Navegación ejemplo">
+                    <ul class="nav-links">
+                      <li><a href="#">Inicio</a></li>
+                      <li><a href="#">Sobre mí</a></li>
+                      <li><a href="#">Proyectos</a></li>
+                    </ul>
+                  </nav>
+                  <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+                    <span class="theme-icon">◐</span>
+                    <span class="theme-label">Dark Mode</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="design-section reveal">
+            <h2>Theme Toggle</h2>
+            <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+              <span class="theme-icon">◐</span>
+              <span class="theme-label">Dark Mode</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Erick Terranova</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Volver al inicio">↑</button>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
