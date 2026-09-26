@@ -49,15 +49,15 @@ A continuación se muestran algunas vistas del proyecto. Las imágenes se cargan
 
 ### Vista principal
 
-![Vista principal del portfolio](https://i.ibb.co/mV2jpxk6/imagen-1.png)
+<img src="https://i.ibb.co/mV2jpxk6/imagen-1.png" alt="Vista principal del portfolio" width="1000" />
 
 ### Sección de habilidades
 
-![Sección de habilidades](https://i.ibb.co/jPhRnZKZ/imagen-2.png)
+<img src="https://i.ibb.co/jPhRnZKZ/imagen-2.png" alt="Sección de habilidades" width="1000" />
 
 ### Sección de proyectos
 
-![Sección de proyectos](https://i.ibb.co/Sw40QV8d/imagen-3.png)
+<img src="https://i.ibb.co/Sw40QV8d/imagen-3.png" alt="Sección de proyectos" width="1000" />
 
 ## Estructura del proyecto
 
